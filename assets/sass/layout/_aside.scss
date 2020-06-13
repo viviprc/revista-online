@@ -1,0 +1,27 @@
+/*Aside*/
+#Aside {
+    display: flex;
+    justify-content: center;
+}
+
+.main__right-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+
+}
+
+.left__first {
+    border-bottom: 1px solid gray;
+}
+.left__second {
+    border-bottom: 1px solid gray;
+}
+.left__second-list {
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+}
+.img-fluid {
+    width: 100%;
+}

@@ -1,0 +1,30 @@
+/*Section*/
+#Newsletter {
+    width: 100%;
+    padding: 3.5rem;
+    background-color: #f2f4f5;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.main__bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+article {
+    width: 100%;
+}
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid red;
+}
+.item {
+    background-color: green;
+}
+@media (max-width: 768px) {
+    #Newsletter {
+        padding: 1rem;
+        padding-bottom: 0.8rem;
+    }
+}

@@ -1,0 +1,13 @@
+/*Inputs*/
+.input-menu {
+    border-radius: 30px;
+}
+.newsletter__input {
+    border: 0;
+    height: 23px;
+}
+@media (max-width:576px){
+    .input-menu {
+        max-width: 100px;
+    }
+}

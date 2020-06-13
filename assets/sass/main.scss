@@ -1,0 +1,29 @@
+/*Manifiesto scss*/
+
+/*Abstract*/
+@import 'abstract/mixins';
+@import 'abstract/variables';
+/*Vendors*/
+
+
+/*Base*/
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+
+/*Layout*/
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/aside';
+@import 'layout/main';
+@import 'layout/section';
+@import 'layout/footer';
+
+/*Components*/
+@import 'components/buttons';
+@import 'components/inputs';
+@import 'components/tags';
+
+/*Pages*/
+
+/*Themes*/
